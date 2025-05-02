@@ -8,11 +8,11 @@ Connect to the program with netcat:
 $ nc verbal-sleep.picoctf.net 59898
 ## Solution
 para resolver este desafio, primeiro deve-se baixar o arquivo e abrí-lo, neste arquivo terá um código na linguagem Python, o qual iremos analisar. No primeiro contato com o código, percebe-se uma letra de música
-com um verso aparente, o qual é retratado como "secret intro", a qual só pode ser ativada quando algo no código acontece (falarei do código ao recorrer).
+com um verso aparente, o qual é retratado como "secret intro" que só pode ser ativada quando algo no código acontece (falarei do código ao recorrer).
 
 [![imagem-1.png](https://i.postimg.cc/VNqCqgCx/imagem-1.png)](https://postimg.cc/B8vbsxNp)
 
-Ao usar o kali linux, abrir o prompt de comando e digitar o comando previsto 'nc verbal-sleep.pictoctf.net 59898', começará a imprimir uma música, a qual poucos versos após aparece "Crowd:", indicando ao usuário
+Ao usar o kali linux, abrir o prompt de comando e digitar o comando previsto 'nc verbal-sleep.pictoctf.net 59898' começará a imprimir uma música, a qual poucos versos após aparece "Crowd:", indicando ao usuário
 que deve-se digitar algo.
 [![Captura-de-tela-2025-05-02-174607.png](https://i.postimg.cc/3wFsDyKK/Captura-de-tela-2025-05-02-174607.png)](https://postimg.cc/LqhCc8Y7)
 
