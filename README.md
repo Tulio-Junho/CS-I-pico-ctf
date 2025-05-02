@@ -1,1 +1,2 @@
-# Flag-Hunters-CTF
+# CS&I
+Repositório para atividades do CS&amp;I
