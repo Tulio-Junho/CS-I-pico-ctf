@@ -18,6 +18,7 @@ que deve-se digitar algo.
 
 A princípio, podemos digitar qualquer frase ou palavra que o código voltará a imprimir o restante da música (com o adicional que em todos os "Crowds" conseguintes aparecerá a frase ou palavra escrita.
 Nesse momento, devemos olhar ao restante do código e entender o que está acontecendo e como podemos resolver a questão.
+
 [![Captura-de-tela-2025-05-02-174856.png](https://i.postimg.cc/wvKnPh0c/Captura-de-tela-2025-05-02-174856.png)](https://postimg.cc/1gHWVNxf)
 
 o código funciona a partir de uma lógica de leitura e execução sequencial de linhas de uma música. Ele percorre uma lista de instruções (song lines), tratando comandos especiais. Porém, ao invés de começar como 
