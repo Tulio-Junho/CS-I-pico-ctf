@@ -9,16 +9,16 @@ Para este desafio, devemos primeiro entrar no link, o qual pode ser encontrado c
 
 [![Captura-de-tela-2025-05-02-131115.png](https://i.postimg.cc/t4MdJL8p/Captura-de-tela-2025-05-02-131115.png)](https://postimg.cc/fVYSggwr)
 
-Após tentarmos um login e senha aleatório, obteremos essa página:
+Após tentarmos um login e senha aleatório, obteremos essa página, a qual nega o acesso ao usuário, porém nos mostra uma dica:
 
 [![Captura-de-tela-2025-05-07-230411.png](https://i.postimg.cc/nzs88b75/Captura-de-tela-2025-05-07-230411.png)](https://postimg.cc/fthqXP8j)
 
 O site nos dá uma dica, vista em "Hint: Have you checked your cookies lately?", de olharmos os cookies da página, os quais iremos chegar agora. Para isso, primeiro deve-se clicar com o botão direito do mouse
-dentro da página e depois em inspecionar:
+dentro da página e depois em inspecionar, para vermos o código [HTML](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content) da página:
 
 [![certa.png](https://i.postimg.cc/5tsH7vqg/certa.png)](https://postimg.cc/qtCMgNF6)
 
-Após isso, devemos clicar em "aplicativos"
+Após isso, devemos clicar em "aplicativos". Os navegadores modernos organizam os dados locais, como [cookies](https://www.kaspersky.com.br/resource-center/definitions/cookies) e outros, na aba "Aplicativos" das ferramentas de desenvolvedor. Essa organização facilita a visualização e manipulação desses dados, que são essenciais para o funcionamento de muitas aplicações web.
 
 [![aplicativo.png](https://i.postimg.cc/JzkW0Bhn/aplicativo.png)](https://postimg.cc/9DCkN0Z5)
 
@@ -26,7 +26,7 @@ E depois em cookies, onde na primeira linha da planilha estará nossa flag cript
 
 [![cookie.png](https://i.postimg.cc/151dBYR9/cookie.png)](https://postimg.cc/6Tzz5cGS)
 
-Nossa flag é esta: "cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzXzk2RjU4REFCfQ%3D%3D", que é o mesmo que "cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzXzk2RjU4REFCfQ==", pois "%3D%3D" é uma forma codificada de "==", os quais são uns dos principais símbolos para uma mensagem encriptada em base64. Descriptografando-a utilizando o site "base64decoder", recebemos a flag.
+Nossa flag é esta: "cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzXzk2RjU4REFCfQ%3D%3D", que é o mesmo que "cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzXzk2RjU4REFCfQ==", pois "%3D%3D" é uma forma codificada de "==", os quais são uns dos principais símbolos para uma mensagem encriptada em [base64](https://pt.wikipedia.org/wiki/Base64). Descriptografando-a utilizando o site [base64decoder](https://www.base64decode.org/), recebemos a flag.
 
 [![Captura-de-tela-2025-05-07-230234.png](https://i.postimg.cc/4yh9qdB0/Captura-de-tela-2025-05-07-230234.png)](https://postimg.cc/kRqGtnrN)
 
