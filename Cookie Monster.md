@@ -20,11 +20,16 @@ dentro da página e depois em inspecionar, para vermos o código [HTML](https://
 
 Após isso, devemos clicar em "aplicativos". Os navegadores modernos organizam os dados locais, como [cookies](https://www.kaspersky.com.br/resource-center/definitions/cookies) e outros, na aba "Aplicativos" das ferramentas de desenvolvedor. Essa organização facilita a visualização e manipulação desses dados, que são essenciais para o funcionamento de muitas aplicações web.
 
-[![aplicativo.png](https://i.postimg.cc/JzkW0Bhn/aplicativo.png)](https://postimg.cc/9DCkN0Z5)
+[![aplivativosadfasdfasdf.png](https://i.postimg.cc/x8mVF6sp/aplivativosadfasdfasdf.png)](https://postimg.cc/K3mW1Dht)
+
 
 E depois em cookies, onde na primeira linha da planilha estará nossa flag criptografa:
 
 [![cookie.png](https://i.postimg.cc/151dBYR9/cookie.png)](https://postimg.cc/6Tzz5cGS)
+
+Agora que temos a planilha dos cookies da página, deve-se clicar com o botão direito sobre o valor deste único cookie e após isso clicar em "Edit Valor", para conseguir copiar a nossa flag.
+
+[![Captura-de-tela-2025-05-08-195446.png](https://i.postimg.cc/SN0hzpsB/Captura-de-tela-2025-05-08-195446.png)](https://postimg.cc/Wt7KQC08)
 
 Nossa flag é esta: "cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzXzk2RjU4REFCfQ%3D%3D", que é o mesmo que "cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzXzk2RjU4REFCfQ==", pois "%3D%3D" é uma forma codificada de "==", os quais são uns dos principais símbolos para uma mensagem encriptada em [base64](https://pt.wikipedia.org/wiki/Base64). Descriptografando-a utilizando o site [base64decoder](https://www.base64decode.org/), recebemos a flag.
 
