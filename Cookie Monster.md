@@ -5,7 +5,7 @@
 Cookie Monster has hidden his top-secret cookie recipe somewhere on his website. As an aspiring cookie detective, your mission is to uncover this delectable secret. Can you outsmart Cookie Monster and find the hidden recipe?
 You can access the Cookie Monster "here" and good luck
 ## Solution
-Para este desafio, devemos primeiro entrar no link, o qual pode ser encontrado clicando em "here" (  http://verbal-sleep.picoctf.net:56571/  ), e então, seremos redirecionados à uma página que deve ser colocado o login e senha.
+Para este desafio, devemos primeiro entrar no link, o qual pode ser encontrado clicando em [here](http://verbal-sleep.picoctf.net:56571/), e então, seremos redirecionados à uma página que deve ser colocado o login e senha.
 
 [![Captura-de-tela-2025-05-02-131115.png](https://i.postimg.cc/t4MdJL8p/Captura-de-tela-2025-05-02-131115.png)](https://postimg.cc/fVYSggwr)
 
