@@ -10,8 +10,7 @@ comutativa, associativa, tem identidade e se fizer um código sobre ele mesmo d�
 
 ## Solução
 
-Usando as propriedades do XOR, escrevi um simples código em [python](https://pt.wikipedia.org/wiki/Python), o qual transforma cada chave em código binário e depois utiliza as seguintes propriedades as quais 
-fazem com que as chaves sejam descobertas, após isso a flag será vista em código binario, utilizando a penultima linha do código para descriptografá-la e após isso o comando "print", teremos a flag! 
+Usando as propriedades do XOR, escrevi um simples código em [python](https://pt.wikipedia.org/wiki/Python), o qual transforma cada chave em código binário (bytes.fromhex) e depois utiliza as seguintes propriedades as quais fazem com que as chaves sejam descobertas, após isso a flag será vista em código binario, utilizando a penultima linha do código para descriptografá-la e após isso o comando "print", teremos a flag! 
 
 [![rnjoenjoneoniornir.png](https://i.postimg.cc/pLG9FsHy/rnjoenjoneoniornir.png)](https://postimg.cc/nXmc8YMt)
 
