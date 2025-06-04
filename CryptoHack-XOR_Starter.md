@@ -60,6 +60,6 @@ Em mesma lógica de visualização na tabela, agora é vista a letra "o" na desc
 
 A qual resulta em "h". Agora novamente o "l" que resulta na letra "a". Juntando as letras que achamos, temos a palavra "aloha", que é nossa flag.
 
->`crypto{aloha}`<
+>`crypto{aloha}`
 
 
