@@ -7,10 +7,10 @@
 ## Introdução
 Para resolvermos este desafio devemos trabalhar com as propriedades matemáticas de [XOR](https://informedenoticias.com.br/glossario/o-que-e-xor-exclusive-or/), que como visto no desafio, a ferramenta XOR é:
 
--Comutativa -> A ⊕ B = B ⊕ A
--Associativa -> (A ⊕ B) ⊕ C = A ⊕ (B ⊕ C)
--Tem identidade -> A ⊕ 0 = A
--Auto-Reverno -> A ⊕ A = 0
+# Comutativa -> A ⊕ B = B ⊕ A
+# Associativa -> (A ⊕ B) ⊕ C = A ⊕ (B ⊕ C)
+# Tem identidade -> A ⊕ 0 = A
+# Auto-Reverno -> A ⊕ A = 0
 
 Com isso, podemos fazer este desafio de maneira rápida se usarmos as propriedades de maneira correta.
 
